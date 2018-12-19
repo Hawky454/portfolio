@@ -34,11 +34,11 @@
 .timeline-beginning {
   grid-column: 2;
   grid-row: 1;
-  border: 8px solid #85bdbf;
+  border: 10px solid #85bdbf;
   border-radius: 1%;
   margin: 10px;
   padding: 25px;
-  background-color: #d6d6d6;
+  background-color: whitesmoke;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
   opacity: 0;
 }
@@ -46,7 +46,7 @@
 .timeline-beginning-show {
   grid-column: 2;
   grid-row: 1;
-  border: 8px solid whitesmoke;
+  border: 10px solid whitesmoke;
   border-radius: 1%;
   margin: 10px;
   padding: 25px;
@@ -59,7 +59,7 @@
   text-align: center;
 }
 
-.timeline-beginning-dot {
+/* .timeline-beginning-dot {
   grid-column: 3;
   grid-row: 1;
   margin: auto;
@@ -71,7 +71,7 @@
   border-width: 15px;
   pointer-events: none;
   position: static;
-}
+} */
 
 .timeline-beginning-title {
   text-align: center;
@@ -97,7 +97,7 @@
 .timeline-continued {
   grid-column: 4;
   grid-row: 2;
-  border: 8px solid whitesmoke;
+  border: 10px solid whitesmoke;
   border-radius: 5px;
   margin: 10px;
   padding: 25px;
@@ -109,7 +109,7 @@
 .timeline-continued-show {
   grid-column: 4;
   grid-row: 2;
-  border: 8px solid whitesmoke;
+  border: 10px solid whitesmoke;
   border-radius: 5px;
   margin: 10px;
   padding: 25px;
@@ -122,7 +122,7 @@
   text-align: center;
 }
 
-.timeline-continued-dot {
+/* .timeline-continued-dot {
   grid-column: 3;
   grid-row: 2;
   margin: auto;
@@ -134,7 +134,7 @@
   border-width: 15px;
   pointer-events: none;
   position: static;
-}
+} */
 
 .timeline-continued-title {
   text-align: center;
@@ -160,7 +160,7 @@
 .timeline-further {
   grid-column: 2;
   grid-row: 3;
-  border: 8px solid whitesmoke;
+  border: 10px solid whitesmoke;
   border-radius: 1%;
   margin: 10px;
   padding: 25px;
@@ -172,7 +172,7 @@
 .timeline-further-show {
   grid-column: 2;
   grid-row: 3;
-  border: 8px solid whitesmoke;
+  border: 10px solid whitesmoke;
   border-radius: 1%;
   margin: 10px;
   padding: 25px;
@@ -185,7 +185,7 @@
   text-align: center;
 }
 
-.timeline-further-dot {
+/* .timeline-further-dot {
   grid-column: 3;
   grid-row: 3;
   height: 0;
@@ -197,7 +197,7 @@
   border-width: 15px;
   pointer-events: none;
   position: static;
-}
+} */
 
 .timeline-further-title {
   text-align: center;
@@ -227,7 +227,7 @@
 .timeline-now {
   grid-column: 4;
   grid-row: 4;
-  border: 8px solid whitesmoke;
+  border: 10px solid whitesmoke;
   border-radius: 1%;
   margin: 10px;
   padding: 25px;
@@ -239,7 +239,7 @@
 .timeline-now-show {
   grid-column: 4;
   grid-row: 4;
-  border: 8px solid whitesmoke;
+  border: 10px solid whitesmoke;
   border-radius: 1%;
   margin: 10px;
   padding: 25px;
@@ -252,7 +252,7 @@
   text-align: center;
 }
 
-.timeline-now-dot {
+/* .timeline-now-dot {
   grid-column: 3;
   grid-row: 4;
   margin: auto;
@@ -264,7 +264,7 @@
   border-width: 15px;
   pointer-events: none;
   position: static;
-}
+} */
 
 .timeline-now-title {
   text-align: center;
@@ -289,10 +289,10 @@
   font-size: 0.9em;
 }
 
-i {
+/* i {
   text-align: center;
   margin: auto;
-}
+} */
 
 @keyframes example {
   from {

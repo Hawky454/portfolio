@@ -136,10 +136,10 @@ class Timeline extends Component {
       <div className="timeline-background">
         <h1 className="timeline-title">Development Timeline</h1>
         <div className="timeline">
-          <span className="timeline-beginning-dot" />
+          {/* <span className="timeline-beginning-dot" />
           <span className="timeline-continued-dot" />
           <span className="timeline-further-dot" />
-          <span className="timeline-now-dot" />
+          <span className="timeline-now-dot" /> */}
           <div className="timeline-line" />
           <div
             className={
