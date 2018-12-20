@@ -56,7 +56,7 @@
   grid-column: 1;
   grid-row: 1;
   background-color: whitesmoke;
-  border: 5px solid #85bdbf;
+  border: 10px solid #85bdbf;
   border-radius: 1%;
   margin: 10px;
   padding: 25px;
@@ -68,7 +68,7 @@
   grid-column: 3;
   grid-row: 1;
   background-color: #85bdbf;
-  border: 5px solid whitesmoke;
+  border: 10px solid whitesmoke;
   color: whitesmoke;
   border-radius: 1%;
   margin: 10px;

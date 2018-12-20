@@ -5,9 +5,9 @@
   box-shadow: inset 0px 20px 50px rgba(0, 0, 0, 0.3);
 }
 
-.timeline-icons {
+/* .timeline-icons {
   color: whitesmoke;
-}
+} */
 
 .timeline {
   display: grid;
@@ -34,11 +34,11 @@
 .timeline-beginning {
   grid-column: 2;
   grid-row: 1;
-  border: 10px solid #85bdbf;
+  border: 10px solid whitesmoke;
   border-radius: 1%;
   margin: 10px;
   padding: 25px;
-  background-color: whitesmoke;
+  background-color: #85bdbf;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
   opacity: 0;
 }
@@ -46,11 +46,11 @@
 .timeline-beginning-show {
   grid-column: 2;
   grid-row: 1;
-  border: 10px solid whitesmoke;
+  border: 10px solid #85bdbf;
   border-radius: 1%;
   margin: 10px;
   padding: 25px;
-  background-color: #85bdbf;
+  background-color: whitesmoke;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
   opacity: 1;
   animation-name: example;
@@ -59,7 +59,7 @@
   text-align: center;
 }
 
-/* .timeline-beginning-dot {
+.timeline-beginning-dot {
   grid-column: 3;
   grid-row: 1;
   margin: auto;
@@ -71,7 +71,7 @@
   border-width: 15px;
   pointer-events: none;
   position: static;
-} */
+}
 
 .timeline-beginning-title {
   text-align: center;
@@ -86,12 +86,16 @@
   font-size: 0.9em;
 }
 
-.timeline-continued-wordsTwo {
+/* .timeline-beginning-wordsTwo {
   margin: auto;
-  padding: 5px;
   text-align: center;
+  padding: 5px;
   font-family: 'Hind Vadodara', sans-serif;
   font-size: 0.9em;
+} */
+
+.timeline-icons-continued {
+  color: whitesmoke;
 }
 
 .timeline-continued {
@@ -104,6 +108,7 @@
   background-color: #85bdbf;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
   opacity: 0;
+  color: whitesmoke;
 }
 
 .timeline-continued-show {
@@ -120,9 +125,11 @@
   animation-duration: 1s;
   transform: scale(1, 1);
   text-align: center;
+  color: whitesmoke;
+  font-weight: bolder;
 }
 
-/* .timeline-continued-dot {
+.timeline-continued-dot {
   grid-column: 3;
   grid-row: 2;
   margin: auto;
@@ -134,7 +141,7 @@
   border-width: 15px;
   pointer-events: none;
   position: static;
-} */
+}
 
 .timeline-continued-title {
   text-align: center;
@@ -160,11 +167,11 @@
 .timeline-further {
   grid-column: 2;
   grid-row: 3;
-  border: 10px solid whitesmoke;
+  border: 10px solid #85bdbf;
   border-radius: 1%;
   margin: 10px;
   padding: 25px;
-  background-color: #85bdbf;
+  background-color: whitesmoke;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
   opacity: 0;
 }
@@ -172,11 +179,11 @@
 .timeline-further-show {
   grid-column: 2;
   grid-row: 3;
-  border: 10px solid whitesmoke;
+  border: 10px solid #85bdbf;
   border-radius: 1%;
   margin: 10px;
   padding: 25px;
-  background-color: #85bdbf;
+  background-color: whitesmoke;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
   opacity: 1;
   animation-name: example;
@@ -185,7 +192,7 @@
   text-align: center;
 }
 
-/* .timeline-further-dot {
+.timeline-further-dot {
   grid-column: 3;
   grid-row: 3;
   height: 0;
@@ -197,7 +204,7 @@
   border-width: 15px;
   pointer-events: none;
   position: static;
-} */
+}
 
 .timeline-further-title {
   text-align: center;
@@ -224,6 +231,11 @@
   font-size: 0.9em;
 }
 
+.timeline-icons-now {
+  color: whitesmoke;
+  font-weight: bolder;
+}
+
 .timeline-now {
   grid-column: 4;
   grid-row: 4;
@@ -234,6 +246,7 @@
   background-color: #85bdbf;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
   opacity: 0;
+  color: whitesmoke;
 }
 
 .timeline-now-show {
@@ -250,9 +263,10 @@
   animation-duration: 1s;
   transform: scale(1, 1);
   text-align: center;
+  color: whitesmoke;
 }
 
-/* .timeline-now-dot {
+.timeline-now-dot {
   grid-column: 3;
   grid-row: 4;
   margin: auto;
@@ -264,7 +278,7 @@
   border-width: 15px;
   pointer-events: none;
   position: static;
-} */
+}
 
 .timeline-now-title {
   text-align: center;
@@ -279,6 +293,8 @@
   text-align: center;
   font-family: 'Hind Vadodara', sans-serif;
   font-size: 0.9em;
+  color: whitesmoke;
+  font-weight: bolder;
 }
 
 .timeline-now-wordsTwo {
@@ -287,12 +303,9 @@
   text-align: center;
   font-family: 'Hind Vadodara', sans-serif;
   font-size: 0.9em;
+  color: whitesmoke;
+  font-weight: bolder;
 }
-
-/* i {
-  text-align: center;
-  margin: auto;
-} */
 
 @keyframes example {
   from {

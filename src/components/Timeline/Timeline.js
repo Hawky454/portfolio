@@ -21,8 +21,8 @@ class TimelineContinued extends Component {
           this.state.show ? 'timeline-continued-show' : 'timeline-continued'
         }
       >
-        <span className="timeline-icons fa-3x">
-          <i className="fas fa-sun" />
+        <span className="timeline-icons-continued">
+          <i className="fas fa-sun fa-3x" />
         </span>
         <h3 className="timeline-continued-title">Continued Education</h3>
         <p className="timeline-continued-wordsOne">
@@ -62,7 +62,7 @@ class TimelineFurther extends Component {
           this.state.show ? 'timeline-further-show' : 'timeline-further'
         }
       >
-        <span className="timeline-icons">
+        <span className="timeline-icons-further">
           <i className="fas fa-moon fa-3x" />
         </span>
         <h3 className="timeline-further-title">Further Development</h3>
@@ -98,7 +98,7 @@ class TimelineNow extends Component {
   render() {
     return (
       <div className={this.state.show ? 'timeline-now-show' : 'timeline-now'}>
-        <span className="timeline-icons">
+        <span className="timeline-icons-now">
           <i className="fas fa-mountain fa-3x" />
         </span>
         <h3 className="timeline-now-title">Present Time</h3>
@@ -136,17 +136,17 @@ class Timeline extends Component {
       <div className="timeline-background">
         <h1 className="timeline-title">Development Timeline</h1>
         <div className="timeline">
-          {/* <span className="timeline-beginning-dot" />
+          <span className="timeline-beginning-dot" />
           <span className="timeline-continued-dot" />
           <span className="timeline-further-dot" />
-          <span className="timeline-now-dot" /> */}
+          <span className="timeline-now-dot" />
           <div className="timeline-line" />
           <div
             className={
-              this.state.show ? 'timeline-beginning-show' : 'timeline-beginnin'
+              this.state.show ? 'timeline-beginning-show' : 'timeline-beginning'
             }
           >
-            <span className="timeline-icons">
+            <span className="timeline-icons-beginning">
               <i className="fas fa-play-circle fa-3x" />
             </span>
             <h3 className="timeline-beginning-title">The Beginning</h3>
