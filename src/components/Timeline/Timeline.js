@@ -26,16 +26,16 @@ class TimelineContinued extends Component {
         </span>
         <h3 className="timeline-continued-title">Continued Education</h3>
         <p className="timeline-continued-wordsOne">
-          I learned most of what I know by taking online courses and I've
-          recently graduated from Galvanize's Full Stack Web Development
-          Immersive program.
+          I learned a lot by taking advantage of all the free online courses but
+          in early 2018 I thought it was time to take the plunge and go ahead
+          and turn this hobby of mine into something real, I decided to go back
+          to school! I attended Galvanize's Full Stack Immersive Code Academy
+          Program and graduated in October of 2018.
         </p>
         <p className="timeline-continued-wordsTwo">
-          The first course that I took really pushed me to continue and further
-          cultivated my passion for designing webpages. This first course was
-          comprised of Introduction to HTML5, Introduction to CSS3,
-          Interactivity with JavaScript, and Responsive Web Design. The passion
-          just grew from there and I continue to learn and grow every day.
+          The immersive program really pushed and challenged me and it further
+          cultivated my passion for designing websites, writing server logic and
+          working with relational database management systems.
         </p>
       </div>
     );
@@ -103,15 +103,20 @@ class TimelineNow extends Component {
         </span>
         <h3 className="timeline-now-title">Present Time</h3>
         <p className="timeline-now-wordsOne">
-          Having the prior knowledge of developing in React framework, becoming
-          more comfortable working with node modules, and working with the
-          Material Design layout. I began to feel comfortable enough to begin
-          pursueing a career in web development.
+          Now a Galvanize alumni and having the knowledge of developing in
+          React.js, I'm more comfortable working with node modules, and working
+          with Material, Font Awesome and other design layouts, I began to feel
+          comfortable enough to begin pursueing a career in web development.
         </p>
         <p className="timeline-now-wordsTwo">
-          Following this decision, I also began to look into further knowledge.
-          I am currently building my knowledge, and constructing a better
-          understanding of the React framework every day.
+          Folllowing this decision and feeling comfortable working with React, I
+          felt I needed to explore other popular JavaScript frameworks such as
+          Vue and Angular. I've found that the best way to learn is do start
+          creating, so I am currently working on apps in both Vue and Angular. I
+          am currently building my knowledge and constructing a better
+          understanding of these JavaScript frameworks every day. Thank you for
+          taking the time to look at my site and feel free to send me a message
+          in the form below. I look forward to hearing from you!
         </p>
       </div>
     );
@@ -151,13 +156,17 @@ class Timeline extends Component {
             </span>
             <h3 className="timeline-beginning-title">The Beginning</h3>
             <p className="Timeline-beginning-wordsOne">
-              I started learning to code as a hobby using tools such as
-              CodeAcademy, FreeCodeCamp, and Google.
+              I first dabbled in code way back in 1997! I taught myself how to
+              use html and created several websites to support some of the local
+              bands that I grew up with. It wasn't until much, much later that I
+              became smitten with coding. In early 2017 I started to get
+              intrested in coding as a hobby, using tools such as CodeAcademy,
+              FreeCodeCamp, and Google Dev Tools.
             </p>
             <p className="Timeline-beginning-wordsTwo">
-              Working on simple projects, such as coding a hangman game, sparked
-              an ember that would eventually catch fire and drive me toward a
-              career in Web Development.
+              Working on projects, such as coding a hangman game and creating
+              simple websites sparked an ember that would eventually catch fire
+              and drive me towards a career in Web Development.
             </p>
           </div>
 

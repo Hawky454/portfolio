@@ -23,8 +23,8 @@ class Body extends Component {
           <h3 className="body-about-me">About Me:</h3>
           <p className="body-text">
             I am a self driven individual, constantly on the search to improve
-            all skill sets. I am a father and dedicated front end web developer.
-            I have developed a background in leadership, management, as well as
+            all skill sets. I am a single father and dedicated web developer. I
+            have developed a background in leadership, management, as well as
             the customer experience. These skills that I have developed over
             time help me to create web pages with a mindset towards the User
             Experience. I am an Full Stack Web Developer Immersive alumni from

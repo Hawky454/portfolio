@@ -7,9 +7,9 @@ const API_PORTFOLIO = `${API_URL}/api/portfolio`;
 
 function getHostURL() {
   if (window.location.host.indexOf('localhost') !== -1) {
-    return 'http://localhost:5001';
+    return 'http://localhost:8000';
   } else {
-    return 'https://tobacco-cellar-server.herokuapp.com'; //!this address needs to be changed... need to deploy server first...
+    return 'https://dmiller-portfolio-server.herokuapp.com/'; //!this address needs to be changed... need to deploy server first...
   }
 }
 

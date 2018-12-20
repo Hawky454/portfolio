@@ -42,7 +42,26 @@ body {
 .app-barcode {
   grid-column: 3;
   grid-row: 3;
-  margin: auto;
+}
+
+a:link {
+  color: #0088ed;
+}
+a:visited {
+  color: #85bdbf;
+}
+
+i:hover {
+  color: red;
+}
+
+.scanner {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.app-icons {
+  margin: 5px;
 }
 
 .app-job {
