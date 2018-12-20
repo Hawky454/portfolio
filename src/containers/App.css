@@ -51,7 +51,7 @@ a:visited {
   color: #85bdbf;
 }
 
-i:hover {
+a:hover {
   color: red;
 }
 
