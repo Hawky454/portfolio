@@ -49,6 +49,9 @@ class Contact extends Component {
       reason: '',
       comment: ''
     });
+    alert(
+      "Thank you for contacting me, I'll get back with you as soon as I can"
+    );
   };
 
   handleInputFirstName = event => {
