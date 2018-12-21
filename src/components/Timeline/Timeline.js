@@ -105,19 +105,19 @@ class TimelineNow extends Component {
         <p className="timeline-now-wordsOne">
           Now, being a Galvanize alumni and having the knowledge of developing
           in React.js, I'm more comfortable working with node modules, and
-          working with Material, Font Awesome and other design layouts, I now
-          feel comfortable enough with my skills to pursue a career in web
+          working with Material, Font Awesome and other design layouts, I feel
+          comfortable enough with my skills to pursue a career in web
           development.
         </p>
         <p className="timeline-now-wordsTwo">
           Folllowing this decision and feeling comfortable working with React, I
           felt I needed to explore other popular JavaScript frameworks such as
-          Vue and Angular. I've found that the best way to learn is to start
-          creating, so I am currently working on apps in both Vue and Angular. I
-          am currently building my knowledge and constructing a better
-          understanding of these JavaScript frameworks every day. Thank you for
-          taking the time to look at my site and feel free to send me a message
-          in the form below. I look forward to hearing from you!
+          Vue and Angular. I've found that the best way to learn is to jump in
+          and start creating, so I am currently working on apps in both Vue and
+          Angular. I am currently building my knowledge and constructing a
+          better understanding of these JavaScript frameworks every day. Thank
+          you for taking the time to look at my site and feel free to send me a
+          message in the form below. I look forward to hearing from you!
         </p>
       </div>
     );

@@ -27,8 +27,8 @@ class Body extends Component {
             have developed a background in leadership, management, as well as
             the customer experience. These skills that I have developed over
             time help me to create web pages with a mindset towards the User
-            Experience. I am an Full Stack Web Developer Immersive alumni from
-            Galvanize Code Academy.
+            Experience. I am a Full Stack Web Developer Immersive alumni from
+            Galvanize Code Academy - Austin, TX.
           </p>
         </div>
         <div className="body-photo">
