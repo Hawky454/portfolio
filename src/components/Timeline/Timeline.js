@@ -103,15 +103,16 @@ class TimelineNow extends Component {
         </span>
         <h3 className="timeline-now-title">Present Time</h3>
         <p className="timeline-now-wordsOne">
-          Now a Galvanize alumni and having the knowledge of developing in
-          React.js, I'm more comfortable working with node modules, and working
-          with Material, Font Awesome and other design layouts, I began to feel
-          comfortable enough to begin pursueing a career in web development.
+          Now, being a Galvanize alumni and having the knowledge of developing
+          in React.js, I'm more comfortable working with node modules, and
+          working with Material, Font Awesome and other design layouts, I now
+          feel comfortable enough with my skills to pursue a career in web
+          development.
         </p>
         <p className="timeline-now-wordsTwo">
           Folllowing this decision and feeling comfortable working with React, I
           felt I needed to explore other popular JavaScript frameworks such as
-          Vue and Angular. I've found that the best way to learn is do start
+          Vue and Angular. I've found that the best way to learn is to start
           creating, so I am currently working on apps in both Vue and Angular. I
           am currently building my knowledge and constructing a better
           understanding of these JavaScript frameworks every day. Thank you for
