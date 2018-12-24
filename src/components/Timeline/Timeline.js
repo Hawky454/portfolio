@@ -113,9 +113,9 @@ class TimelineNow extends Component {
           Folllowing this decision and feeling comfortable working with React, I
           felt I needed to explore other popular JavaScript frameworks such as
           Vue and Angular. I've found that the best way to learn is to jump in
-          and start creating, so I am currently working on apps in both Vue and
-          Angular. I am currently building my knowledge and constructing a
-          better understanding of these JavaScript frameworks every day. Thank
+          and start creating, therefor, I am currently working on apps in both
+          Vue and Angular. I am currently building my knowledge and constructing
+          a better understanding of these JavaScript frameworks every day. Thank
           you for taking the time to look at my site and feel free to send me a
           message in the form below. I look forward to hearing from you!
         </p>

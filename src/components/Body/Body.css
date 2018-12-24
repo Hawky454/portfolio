@@ -82,3 +82,21 @@
   color: whitesmoke;
   padding: 3px;
 }
+
+/* Working on iPad */
+/* @media only screen and (min-width: 768px) and (max-width: 2000px) {
+  #body {
+    margin-top: 300px;
+  }
+  .body-first-header {
+    width: 300px;
+    height: 600px;
+    margin-left: 0;
+  }
+
+  .body-second-header {
+    width: 300px;
+    height: 600px;
+    margin-left: 50px;
+  }
+} */
