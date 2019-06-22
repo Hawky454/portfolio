@@ -11,12 +11,14 @@ const ContactForm = props => {
   const timeStyle = {
     fontSize: '25px',
     boxShadow: '1px 2.5px 5px',
-    padding: '20px'
+    padding: '20px',
+    marginBottom: '75px'
   }
 
   const date = new Date();
-  let hours = date.getHours();
+  const hours = date.getHours();
   const minutes = date.getMinutes();
+  const currentDate = date.toDateString();
 
   let timeOfDay;
 
@@ -26,6 +28,9 @@ const ContactForm = props => {
   } else if (hours >= 12 && hours < 17) {
     timeOfDay = 'afternoon';
     timeStyle.color = '#8914A3'
+  } else if (hours >= 17 && hours < 20) {
+    timeOfDay = 'evening';
+    timeStyle.color = '#e2a44a';
   } else {
     timeOfDay = 'night';
     timeStyle.color = '#D90000'
@@ -33,11 +38,12 @@ const ContactForm = props => {
 
 
 
-
   return (
 
     <div className="form-container">
-      <p style={timeStyle}>{hours % 12}:{minutes} Good {timeOfDay}!</p>
+      <div style={timeStyle}>{hours % 12}:{minutes} Good {timeOfDay}!
+      <p>{currentDate}</p>
+      </div>
       <p className="contact-form-info">David, </p>
       <p className="contact-form-info">
         I can be reached at:
